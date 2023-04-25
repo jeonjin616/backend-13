@@ -1,0 +1,26 @@
+h1{
+    font-size: 3em;
+}
+
+h2{
+    color: red;
+}
+.crimson{
+    color: crimson;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    background-color: darkgray;
+}
+ul ~ p {
+    font-style: italic;
+}
+.hidden{
+    font-size: 20px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
